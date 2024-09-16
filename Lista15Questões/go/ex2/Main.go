@@ -1,4 +1,4 @@
-package 
+package main
 
 import "fmt"
 
@@ -29,7 +29,7 @@ func main() {
 	carro := Carro{
 		Marca: "Toyota",
 		Modelo: "Corolla",
-		Ano: 2020
+		Ano: 2020,
 	}
 
 	carro.exibir_detalhes()
